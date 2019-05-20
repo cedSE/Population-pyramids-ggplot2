@@ -1,7 +1,7 @@
 ###########################################################################################
 ###                                        prova2                     i guardar                          ###
 ### CODE FOR THE CREATION OF OVERLAPPED AND COMPOSED POPULATION PYRAMIDS USING GGPLOT2  ###
-### Author: JUAN GALEANO                                                                ###  
+### Author: JUAN GALEANO                                                                ###  lklololl
 ### Contact: jgaleano@ced.uab.es, Centre d'Estudis Demogràfics, Barcelona, Spain        ###
 ###                                                                                     ###
 ###########################################################################################
