@@ -12,6 +12,7 @@
 
 library(ggplot2)
 library(scales)
+library(tidyverse)
 
 # OVERLAPPED POPULATION PYRAMID:
 
@@ -27,7 +28,7 @@ head(POP_ENC_AMB_2014)
 # Once we have the data as we want we can create the overlapped pyramid:
 
 OVERLLAPED_PYRAMID <- ggplot(POP_ENC_AMB_2014, aes(x=edad, y=nREL, fill=sexo))+
-  geom_bar(stat="identity", size=.3, colour="black", position="identity")+
+  geom_bar(stat="identity", size=.3, colour="red", position="identity")+
   coord_flip()+
   scale_y_continuous(limits=c(-2.5,2.5),
                      breaks = c(-2.5,-2,-1.5,-1,-0.5,0,0.5,1,1.5,2, 2.5), 
